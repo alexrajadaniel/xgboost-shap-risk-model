@@ -114,6 +114,28 @@ Examples:
 - FN: low loan amount + high income → model underestimates risk  
 - FP: high loan amount + many late payments → model overestimates risk  
 
-All plots are saved inside:
+project/
+├── data/
+│   └── realistic_customer_risk_dataset.csv
+├── notebooks/
+│   └── model_and_shap_analysis.ipynb
+├── outputs/
+│   ├── shap_summary.png
+│   ├── shap_bar.png
+│   ├── dependence_loan_amount.png
+│   └── edge_cases/
+│       ├── force_case_1.png
+│       ├── force_case_2.png
+│       ├── force_case_3.png
+│       ├── force_case_4.png
+│       └── force_case_5.png
+├── models/
+│   └── final_pipeline.pkl
+├── requirements.txt
+└── README.md
+## 📬 Contact
+
+If you want to reproduce or extend the model, feel free to open an issue in the repository.
+
 
 
